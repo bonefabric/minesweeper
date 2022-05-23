@@ -218,7 +218,7 @@ class Game {
 
         if (typeof markedField === 'object') {
             this._markedFields = this._markedFields.filter(field => {
-                return field.getRow() !== row && field.getCol() !== col;
+                return !(field.getRow() === row && field.getCol() === col);
             });
             return;
         }
