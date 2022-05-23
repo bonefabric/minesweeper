@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#app {
+    background-color: cornflowerblue;
+}
